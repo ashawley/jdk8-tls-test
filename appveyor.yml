@@ -12,7 +12,7 @@ install:
   - cmd: SET PATH=C:\sbt\bin;%JAVA_HOME%\bin;%PATH%
 
 test_script:
-  - sbt ++%SCALA_VERSION% "run https://repo1.maven.org"
+  - sbt ++%SCALA_VERSION% "run https://repo.scala-sbt.org"
 
 cache:
   - C:\sbt\

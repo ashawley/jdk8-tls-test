@@ -5,7 +5,7 @@ scala:
 
 script:
   - java -version
-  - sbt ++$TRAVIS_SCALA_VERSION "run https://repo1.maven.org"
+  - sbt ++$TRAVIS_SCALA_VERSION "run https://repo.scala-sbt.org"
 
 jdk:
   - oraclejdk8
